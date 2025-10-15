@@ -28,7 +28,7 @@ const Footer = () => {
           </a>
         </li>
         <li>
-          <a href="https://www.pmiusservices.com/contact" className="hover:underline">
+          <a href="https://www.isuccessnode.com/contact" className="hover:underline">
             Contact
           </a>
         </li>
@@ -38,3 +38,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
