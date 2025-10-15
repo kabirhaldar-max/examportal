@@ -98,12 +98,12 @@ const AdminLogin = () => {
           <div className="text-sm text-center text-gray-600 dark:text-gray-400">
             Visit our official website{" "}
             <a
-              href="https://www.pmiusservices.com/"
+              href="https://www.isuccessnode.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-indigo-600 hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300 font-medium underline"
             >
-              PMIUS
+              ISUCCESSNODE
             </a>{" "}
             for further queries.
           </div>
@@ -141,3 +141,4 @@ const AdminLogin = () => {
 };
 
 export default AdminLogin;
+
