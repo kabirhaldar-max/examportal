@@ -42,6 +42,9 @@ const ExamDetails = ({ data }) => {
             <h3 className="text-lg md:text-xl font-semibold text-gray-900 dark:text-white">
               {examData.title || `Exam ${data.examId}`}
             </h3>
+            <h3 className="text-sm md:text-base font-semibold text-gray-900 dark:text-white">
+              {examData.fullName || ` `}
+            </h3>
             <p className="text-sm md:text-base text-gray-700 dark:text-gray-300">
               Total Questions: {examData.data?.length || 0}
             </p>
