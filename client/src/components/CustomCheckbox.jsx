@@ -23,7 +23,7 @@ const CustomCheckbox = (props) => {
           htmlFor={props.data._id}
           className="text-gray-900 dark:text-white font-medium select-none"
         >
-          {props.data.title}
+          {props.data.fullName}
         </label>
       </div>
     </div>
