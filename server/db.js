@@ -19,6 +19,7 @@ const userSchema = new Schema({
 
 const examSchema = new Schema({
     title: String,
+    fullName: String,
     totalMarks: Number,
     data: {type: Array, "default": []}
 })
@@ -26,5 +27,6 @@ const examSchema = new Schema({
 const adminModel = mongoose.model("admin", adminSchema);
 const userModel = mongoose.model("user", userSchema);
 const examModel = mongoose.model("exam", examSchema);
+
 
 module.exports = {adminModel, userModel, examModel};
