@@ -43,6 +43,9 @@ const ExamCard = (props) => {
           {props.data.title}
         </h5>
       </div>
+      <p className="mb-3 font-medium text-gray-900 dark:text-white w-[80%]">
+        {props.data.fullName}
+      </p>
       <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">
         Total No. of Questions: {props.data.data.length}
       </p>
